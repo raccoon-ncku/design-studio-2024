@@ -1,0 +1,33 @@
+---
+const { icon, label, index } = Astro.props
+
+import Chip from '../Chip.astro'
+
+const slideAnim = {
+  old: {
+    name: 'slideDown',
+    duration: '0.3s',
+    easing: 'ease-out',
+    fillMode: 'backwards',
+  },
+  new: {
+    name: 'slideUp',
+    duration: '0.3s',
+    delay: `${index * 0.1 + 0.1}s`,
+    easing: 'ease-out',
+    fillMode: 'backwards',
+  },
+}
+
+const verticalSlide = {
+  forwards: slideAnim,
+  backwards: slideAnim,
+}
+---
+
+<li transition:animate={verticalSlide}>
+  <Chip>
+    {icon}
+    {label}
+  </Chip>
+</li>
