@@ -35,10 +35,11 @@ module.exports = {
         hover: '#FF6057',
         active: '#E50D00',
       },
+      silver: '#F5F5F7'
     },
     fontFamily: {
       sans: [
-        "'antipol-variable', 'sans-serif'",
+        "'sans-serif'",
         {
           fontVariationSettings: "'STCH' 1, 'wght' 500, 'wdth' 100",
         },
@@ -48,9 +49,6 @@ module.exports = {
     extend: {
       maxWidth: {
         '8xl': '1360px',
-      },
-      backgroundImage: {
-        topography: "url('/images/topography-bg.png')",
       },
       backgroundSize: {
         500: '500px 500px',

@@ -14,7 +14,7 @@ import bikeSvg from '@assets/svgs/bike.svg?raw'
 ---
 
 <fieldset class="flex items-center gap-4 <sm:hidden">
-  <legend class="sr-only">Trail Type</legend>
+  <legend class="sr-only">Project Type</legend>
 
   {
     options.map(({ label, checked = false }) => {
@@ -34,14 +34,14 @@ import bikeSvg from '@assets/svgs/bike.svg?raw'
           <input
             class="absolute opacity-0 [&:checked~label]:border-0 [&:checked~label]:bg-red-orange [&:checked~label]:text-white [&:focus-visible~label]:ring-2 [&:focus-visible~label]:ring-red-orange [&:focus-visible~label]:ring-offset-2 [&:focus-visible~label]:ring-offset-champagne"
             type="radio"
-            name="trail-type"
+            name="project-type"
             value={label}
-            id={`trail-type-${label}`}
+            id={`project-type-${label}`}
             checked={checked}
           />
 
           <label
-            for={`trail-type-${label}`}
+            for={`project-type-${label}`}
             class="flex h-8 w-12 cursor-pointer items-center justify-center rounded-lg border-2 bg-white p-1.5 text-shark md:h-10 md:w-[70px] md:rounded-2xl [&_svg]:h-full"
           >
             {Svg(label)}
