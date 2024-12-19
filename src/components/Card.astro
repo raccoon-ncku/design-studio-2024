@@ -5,7 +5,7 @@ const { colors, user, postDate, title, subtitle, video, slug } = Astro.props
 ---
 
 <a
-  href={slug}
+  href={`/rcs2024f/${slug}`}
   class:list={[
     'group relative flex flex-col rounded-3xl transition-transform duration-300 after:absolute after:inset-0 after:z-0 hover:scale-95 hover:after:scale-105 focus-visible:scale-100 focus-visible:outline-offset-4 focus-visible:outline-red-orange focus-visible:hover:after:content-none',
     colors.text,
@@ -60,7 +60,7 @@ const { colors, user, postDate, title, subtitle, video, slug } = Astro.props
       class="w-full overflow-hidden rounded-b-3xl"
       transition:name={`card ${slug} media box`}
     >
-      <video
+      <!-- <video
         class="-my-px"
         autoplay
         loop
@@ -69,16 +69,15 @@ const { colors, user, postDate, title, subtitle, video, slug } = Astro.props
         transition:persist={`card ${slug} media`}
       >
         <source src={`${video}.webm`} type="video/webm" />
-        <source src={`${video}.mp4`} type="video/mp4" />
-      </video>
-      <!-- <Image
-        src={`${video}-poster.png`}
+      </video> -->
+      <img
+        src={`${video}.gif`}
         alt=""
         class="-my-px"
         width={1745}
         height={1600}
         transition:persist={`card ${slug} media`}
-      /> -->
+      />
     </div>
   </article>
 </a>

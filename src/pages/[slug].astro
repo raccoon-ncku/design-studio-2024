@@ -36,7 +36,7 @@ const { Content } = await entry.render()
       </div>
 
       <a
-        href="/"
+        href="/rcs2024f"
         transition:animate={slide({ duration: '0.5s' })}
         class="focus-visible:outline-inherit absolute left-4 top-3 z-10 flex h-8 items-center rounded-lg bg-shark px-2 text-white hover:bg-shark-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-orange active:bg-shark-active"
       >
@@ -109,7 +109,7 @@ const { Content } = await entry.render()
         class="mt-auto w-full overflow-hidden"
         transition:name={`card ${entry.slug} media box`}
       >
-        <video
+        <!-- <video
           class="-my-px"
           autoplay
           loop
@@ -118,16 +118,15 @@ const { Content } = await entry.render()
           transition:persist={`card ${entry.slug} media`}
         >
           <source src={`${entry.data.video}.webm`} type="video/webm" />
-          <source src={`${entry.data.video}.mp4`} type="video/mp4" />
-        </video>
-        <!-- <Image
-          src={`${entry.data.video}-poster.png`}
+        </video> -->
+        <img
+          src={`${entry.data.video}.gif`}
           alt=""
           class="-my-px"
           width={1745}
           height={1600}
           transition:persist={`card ${entry.slug} media`}
-        /> -->
+        />
       </div>
     </header>
     <section class="wrapper" transition:animate="fade">

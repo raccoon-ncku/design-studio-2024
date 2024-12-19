@@ -38,12 +38,7 @@ module.exports = {
       silver: '#F5F5F7'
     },
     fontFamily: {
-      sans: [
-        "'sans-serif'",
-        {
-          fontVariationSettings: "'STCH' 1, 'wght' 500, 'wdth' 100",
-        },
-      ],
+      sans: ['Noto Sans TC', 'sans-serif'],
       mono: ["'IBM Plex Mono', 'monospace'"],
     },
     extend: {
