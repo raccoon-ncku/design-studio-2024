@@ -3,5 +3,5 @@ services:
     image: raccoon-computation-studio-2024-fall
     container_name: raccoon-computation-studio-2024-fall
     ports:
-      - "12020:8080"
+      - "12040:8080"
     restart: unless-stopped
