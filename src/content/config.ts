@@ -18,8 +18,6 @@ const projectCollection = defineCollection({
     }),
     metadata: z
       .object({
-        distance: z.string().optional(),
-        altitude: z.string().optional(),
         location: z.string().optional(),
       })
       .optional(),

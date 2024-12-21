@@ -24,18 +24,6 @@ const metadataArray = Object.entries(metadata).map(([key, value]) => ({
 
         function svg(type: string) {
           switch (type) {
-            case 'distance':
-              return (
-                <span class="w-3">
-                  <Fragment set:html={hikeSvg} />
-                </span>
-              )
-            case 'altitude':
-              return (
-                <span class="w-5">
-                  <Fragment set:html={mountainSvg} />
-                </span>
-              )
             case 'location':
               return (
                 <span class="w-3">
