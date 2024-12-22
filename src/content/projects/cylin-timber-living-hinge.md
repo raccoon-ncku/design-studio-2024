@@ -9,7 +9,7 @@ colors:
   background: 'bg-orient'
 user:
   name: 'Lin, Chun-Yu'
-  avatar: '/rcs2024f/images/avatars/cylin.JPG'
+  avatar: '/rcs2024f/images/avatars/cylin.jpg'
 metadata:
   location: 'Tainan, Taiwan'
 ---
