@@ -118,7 +118,7 @@ Content
   - 環境情緒分析
          
     下方的兩張gif圖，內部總共有六張圖。分別代表了六種不同的情緒。漂亮、無聊、富有、生氣、安全、沮喪等。第一種圖是將原本的圖轉換成情緒熱力圖，用能更簡易閱讀的方式，了解馬祖此地的，情緒分布。
-    ![研究架構diagram](/rcs2024f/images/hsiao_pic/matzu/6_emotion_23.gif)
+    ![研究架構diagram](/rcs2024f/images/hsiao_pic/matzu/6_emotion.gif)
     ![研究架構diagram](/rcs2024f/images/hsiao_pic/matzu/hot_strength_dot_combined.png)
     ![研究架構diagram](/rcs2024f/images/hsiao_pic/matzu/matzu_6_Emotion_dot.gif)
     ![研究架構diagram](/rcs2024f/images/hsiao_pic/matzu/emotion_6_6_combined.png)
